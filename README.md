@@ -35,9 +35,9 @@ To reduce the effect from image quality issues, such as glare, jitter, blur and 
 
 ## Inferring Street-level Luminosity at City Scale
 
-![dl_workflow](images/silhourtte_k_50.png) 
+![dl_workflow](images/deep_learning_workflow.png) 
 
-![kmeans](images/3D_visualizations_clustering.png) 
+![dl_result](images/predicted_brightness.png) 
 
 
 # Requirements
