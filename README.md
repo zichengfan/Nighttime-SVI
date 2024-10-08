@@ -5,23 +5,27 @@ Repository for releasing the imagery and code used in **Nighttime Street View Im
 
 <!-- You can read more about this project on [its website](https://ual.sg/project/global-streetscapes/) too. It includes an overview of the project together with the background, [paper](https://doi.org/10.1016/j.isprsjprs.2024.06.023), examples, FAQ, etc. --> 
 
-The journal paper can be found [here](https://www-sciencedirect-com.libproxy1.nus.edu.sg/journal/sustainable-cities-and-society) 
+The journal paper can be found [here](https://www-sciencedirect-com.libproxy1.nus.edu.sg/journal/sustainable-cities-and-society).
 
-The nighttime SVI dataset has been uploaded to [Mapillary](https://www.mapillary.com/). 
+The nighttime SVI dataset has been uploaded to [Mapillary](https://www.mapillary.com/), with the unique ID stored here.
 <!-- For users who have no access to Hugging Face, the dataset is also available on [Baidu Cloud Disk](https://pan.baidu.com/s/1wsbqfbA56sXjIdb0KoSBbQ?pwd=98tr) (code: 98tr). This repository contains also a detailed [Wiki](https://github.com/ualsg/global-streetscapes/wiki/) with tutorials. --> 
-
 
 ![graphical_abstract](images/graphical_abstract_new.jpeg)
 
-In **Nighttime SVI** project, we build an open dataset made up of 2500 nighttime panoramic streetview images in Singapore. Luminosity information at the same location are collected. The nighttime SVI are also paired with corresponding daytime SVI from Google Street View. The map below illustrates the spatial distribution of the nighttime images.
+## Image Collection
+
+In **Nighttime SVI** project, we build an open dataset made up of 2500 nighttime panoramic streetview images in Singapore. The map below illustrates the spatial distribution of the nighttime images.
 
 ![images_distribution](images/SVI_Collection_points.png)
 
-Apart from their original metadata, each image has been enriched with a wide range of geospatial, temporal, contextual, semantic, and perceptual information adding up to 346 unique features, as shown in the below illustration.
+Apart from the nighttime images, luminosity of scene at the same location are measured with a light meter. The nighttime images are also paired with corresponding daytime SVI from Google Street View. <!-- Each image has been enriched with a wide range of geospatial, temporal, contextual, semantic, and perceptual information adding up to 346 unique features, as shown in the below illustration. -->
 
-![labels](img/figure_3_4.jpg)
+## Image Processing
+To reduce the effect from image quality issues, such as glare, jitter, blur and extract useful information, we apply a series of CV methods for processing the nighttime SVI. The methods include: (1) Re-project nighttime SVI from equiretangular view to fisheye view. (2) Convert images from RGB to grayscale. (3) Extract significant lighted spots. (4) Calculate the area of lighted spots , distance from lighted spots to image centorid, total luminosity of image and other attributes, to represent the street-level lighting pattern reflected by the image.
 
-The plots below illustrate the class or value distribution among the 10 million images for (A) continents covered, (B) settlement typology (degree of urbanisation), (C) OSM road type, (D) camera projection type, (E) season, (F) hour of the day, (G) transportation mode, and (H) perception scores.
+![coversion](image/SVI_conversion.png)
+
+<!-- The plots below illustrate the class or value distribution among the 10 million images for (A) continents covered, (B) settlement typology (degree of urbanisation), (C) OSM road type, (D) camera projection type, (E) season, (F) hour of the day, (G) transportation mode, and (H) perception scores. -->
 
 ![overview](img/figure_6_summary_updated.png)
 
