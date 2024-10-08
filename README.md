@@ -42,7 +42,12 @@ To map the street level lighting condition at urban scale, we have bult a deep l
 
 ## Discrepancy Analysis
 
+To detect where and how the lighting info represented in the two data source can be different, we built a linear regression model correlating SVI luminosity with satellite luminosity. We then examined the residual distribution of the model using Local Spatial Autocorrelation methods. Our findings indicate that in Central Business Districts (CBDs), ports, and airports—highlighted in red—SVI-based luminosity often underestimates the satellite-based luminosity. Conversely, in the rural northern areas, marked in blue, SVI-based luminosity tends to overestimate.
+
+One possible explanation is that complex vertical lighting structures are perceived differently by SVI and satellite imagery due to their distinct imaging perspectives. For instance, in red-marked areas, façade or rooftop lighting in CBDs, as well as strong aviation and industrial lighting in ports and airports, are more easily captured by satellite imagery. However, these elevated light sources can obscure street-level lighting, leading to discrepancies in the lighting information sensed by the two data sources. We have also discussed other potential causes in the paper.
+
 ![discrepancy](images/local_moran.png) 
+
 
 # Requirements
 
