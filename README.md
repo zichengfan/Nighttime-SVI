@@ -1,14 +1,14 @@
-# Global Streetscapes
+# Nighttime Street View Imagery
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Repository for the code used for download and processing of the NUS Global Streetscapes dataset, developed by the [Urban Analytics Lab (UAL)](https://ual.sg/) at the National University of Singapore (NUS).
+Repository for releasing the imagery and code used in **Nighttime Street View Imagery: A New Perspective for Sensing Urban Lighting Landscape**, developed by the [Urban Analytics Lab (UAL)](https://ual.sg/) at the National University of Singapore (NUS).
 
-You can read more about this project on [its website](https://ual.sg/project/global-streetscapes/) too.
-It includes an overview of the project together with the background, [paper](https://doi.org/10.1016/j.isprsjprs.2024.06.023), examples, FAQ, etc.
+<!-- You can read more about this project on [its website](https://ual.sg/project/global-streetscapes/) too. It includes an overview of the project together with the background, [paper](https://doi.org/10.1016/j.isprsjprs.2024.06.023), examples, FAQ, etc. --> 
 
-The journal paper can be found [here](https://doi.org/10.1016/j.isprsjprs.2024.06.023) and the dataset is hosted on [Hugging Face](https://huggingface.co/datasets/NUS-UAL/global-streetscapes). For users who have no access to Hugging Face, the dataset is also available on [Baidu Cloud Disk](https://pan.baidu.com/s/1wsbqfbA56sXjIdb0KoSBbQ?pwd=98tr) (code: 98tr).
+The journal paper can be found [here](https://www-sciencedirect-com.libproxy1.nus.edu.sg/journal/sustainable-cities-and-society) 
 
-This repository contains also a detailed [Wiki](https://github.com/ualsg/global-streetscapes/wiki/) with tutorials.
+The nighttime SVI dataset has been uploaded to [Mapillary](https://www.mapillary.com/). 
+<!-- For users who have no access to Hugging Face, the dataset is also available on [Baidu Cloud Disk](https://pan.baidu.com/s/1wsbqfbA56sXjIdb0KoSBbQ?pwd=98tr) (code: 98tr). This repository contains also a detailed [Wiki](https://github.com/ualsg/global-streetscapes/wiki/) with tutorials. --> 
 
 
 ![mosaic](img/mosaic_graphical_abstract.png)
