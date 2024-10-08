@@ -28,7 +28,6 @@ To reduce the effect from image quality issues, such as glare, jitter, blur and 
 <!-- The plots below illustrate the class or value distribution among the 10 million images for (A) continents covered, (B) settlement typology (degree of urbanisation), (C) OSM road type, (D) camera projection type, (E) season, (F) hour of the day, (G) transportation mode, and (H) perception scores. -->
 
 ## K-Means Clustering
-![silhouette](images/silhourtte_k_50.png) 
 
 ![kmeans](images/3D_visualizations_clustering.png) 
 
