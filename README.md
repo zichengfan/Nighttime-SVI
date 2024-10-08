@@ -11,7 +11,7 @@ The nighttime SVI dataset has been uploaded to [Mapillary](https://www.mapillary
 <!-- For users who have no access to Hugging Face, the dataset is also available on [Baidu Cloud Disk](https://pan.baidu.com/s/1wsbqfbA56sXjIdb0KoSBbQ?pwd=98tr) (code: 98tr). This repository contains also a detailed [Wiki](https://github.com/ualsg/global-streetscapes/wiki/) with tutorials. --> 
 
 
-![mosaic](img/mosaic_graphical_abstract.png)
+![graphical_abstract](images/graphical_abstract_new.png)
 
 **Global Streetscapes** is an open dataset made up of 10 million Street View Images (SVIs) spanning 688 cities from 212 countries and regions, crowdsourced from [Mapillary](https://www.mapillary.com/) and [KartaView](https://kartaview.org/landing).
 The map below illustrates the geographical coverage of the dataset.
