@@ -15,7 +15,7 @@ The nighttime SVI dataset has been uploaded to [Mapillary](https://www.mapillary
 
 In **Nighttime SVI** project, we build an open dataset made up of 2500 nighttime panoramic streetview images in Singapore. Luminosity information at the same location are collected. The nighttime SVI are also paired with corresponding daytime SVI from Google Street View. The map below illustrates the spatial distribution of the nighttime images.
 
-![map](images/figure_1_600dpi_purple3_cities688_all_standard_new_updated.png)
+![images_distribution](images/SVI_Collection_points.png)
 
 Apart from their original metadata, each image has been enriched with a wide range of geospatial, temporal, contextual, semantic, and perceptual information adding up to 346 unique features, as shown in the below illustration.
 
