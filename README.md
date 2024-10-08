@@ -23,7 +23,7 @@ Apart from the nighttime images, luminosity of scene at the same location are me
 ## Image Processing
 To reduce the effect from image quality issues, such as glare, jitter, blur and extract useful information, we apply a series of CV methods for processing the nighttime SVI. The methods include: (1) Re-project nighttime SVI from equiretangular view to fisheye view. (2) Convert images from RGB to grayscale. (3) Extract significant lighted spots. (4) Calculate the area of lighted spots , distance from lighted spots to image centorid, total luminosity of image and other attributes, to represent the street-level lighting pattern reflected by the image.
 
-![coversion](image/SVI_conversion.png)
+![coversion](images/SVI_conversion.png)
 
 <!-- The plots below illustrate the class or value distribution among the 10 million images for (A) continents covered, (B) settlement typology (degree of urbanisation), (C) OSM road type, (D) camera projection type, (E) season, (F) hour of the day, (G) transportation mode, and (H) perception scores. -->
 
