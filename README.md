@@ -31,7 +31,7 @@ To reduce the effect from image quality issues, such as glare, jitter, blur and 
 
 With the k-means clustering method, we identified seven distinct street lighting patterns and map the patterns back to the collection points. It is found that some lighting patterns can be commonly observed in different functional areas. For example, Cluster 1 can frequently occurred in industrial parks, highways, and university campuses; while Cluster 5 is prevalent in low-rise and high-rise commercial areas. In addition, we can discern that each urban functional area can be typically described by one or two primary lighting patterns, and be distinguished from others by a secondary lighting pattern. Though some urban areas looks similar at a glance during nighttime, their components of lighting patterns can be significantly different. 
 
-![kmeans](images/cls_workflow_result) 
+![kmeans](images/cls_workflow_result.png) 
 
 
 ## Inferring Street-level Luminosity at City Scale
