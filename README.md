@@ -29,15 +29,20 @@ To reduce the effect from image quality issues, such as glare, jitter, blur and 
 <!-- The plots below illustrate the class or value distribution among the 10 million images for (A) continents covered, (B) settlement typology (degree of urbanisation), (C) OSM road type, (D) camera projection type, (E) season, (F) hour of the day, (G) transportation mode, and (H) perception scores. -->
 
 ## K-Means Clustering
+With the k-means clustering method, we identified seven distinct street lighting patterns and map the patterns back to the collection points.
+
 
 ![kmeans](images/3D_visualizations_clustering.png) 
 
 
 ## Inferring Street-level Luminosity at City Scale
+To map the street level lighting condition at urban scale, we have bult a deep learning workflow with the daytime street view imagery as input and the nighttime luminosity values as output. The logic behind the workflow is that daytime and nighttime SVI are related and features covered in daytime SVI, like building facades, street lamps, and greens can be useful in inferring luminosity of the same scenario in the nighttime. The best trained model is used to infer luminosity based on the 50 thousand daytime svi we collected around singaproe. In this way, we are able to map the street-level lighting conditions at urban scale. As shown in the figure, we have further compared the svi predicted luminosity with the satellite derived luminosity. It turns out that the two lighting indicators show similar global distribution. but there is also significant local discrepancies.
 
 ![dl_workflow_result](images/dl_workflow_result.png) 
 
+## Discrepancy Analysis
 
+![discrepancy](images/local_moran.png) 
 
 # Requirements
 
