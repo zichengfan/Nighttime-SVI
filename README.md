@@ -13,7 +13,7 @@ The nighttime SVI dataset has been uploaded to [Mapillary](https://www.mapillary
 <!-- For users who have no access to Hugging Face, the dataset is also available on [Baidu Cloud Disk](https://pan.baidu.com/s/1wsbqfbA56sXjIdb0KoSBbQ?pwd=98tr) (code: 98tr). This repository contains also a detailed [Wiki](https://github.com/ualsg/global-streetscapes/wiki/) with tutorials. --> 
 
 
-## Image Collection
+ ## Data Collection
 
 In **Nighttime SVI** project, we build an open dataset made up of 2500 nighttime panoramic streetview images in Singapore. The map below illustrates the spatial distribution of the nighttime images.
 
@@ -21,18 +21,17 @@ In **Nighttime SVI** project, we build an open dataset made up of 2500 nighttime
 
 Apart from the nighttime images, luminosity of scene at the same location are measured with a light meter. The nighttime images are also paired with corresponding daytime SVI from Google Street View. <!-- Each image has been enriched with a wide range of geospatial, temporal, contextual, semantic, and perceptual information adding up to 346 unique features, as shown in the below illustration. -->
 
-## Image Processing
+## Detecting Generic Lighting Patterns from Nighttime SVI
+
 To reduce the effect from image quality issues, such as glare, jitter, blur and extract useful information, we apply a series of CV methods for processing the nighttime SVI. The methods include: (1) Re-project nighttime SVI from equiretangular view to fisheye view. (2) Convert images from RGB to grayscale. (3) Extract significant lighted spots based on the luninosity difference between pixels. (4) Calculate the area of lighted spots, distance from lighted spots to image centorids, total luminosity of images and other attributes, to represent the street-level lighting pattern reflected by the image.
 
-![coversion](images/SVI_conversion.png)
 
 <!-- The plots below illustrate the class or value distribution among the 10 million images for (A) continents covered, (B) settlement typology (degree of urbanisation), (C) OSM road type, (D) camera projection type, (E) season, (F) hour of the day, (G) transportation mode, and (H) perception scores. -->
 
-## K-Means Clustering
-With the k-means clustering method, we identified seven distinct street lighting patterns and map the patterns back to the collection points.
 
+With the k-means clustering method, we identified seven distinct street lighting patterns and map the patterns back to the collection points. It is found that some lighting patterns can be commonly observed in different functional areas. For example, Cluster 1 can frequently occurred in industrial parks, highways, and university campuses; while Cluster 5 is prevalent in low-rise and high-rise commercial areas. In addition, we can discern that each urban functional area can be typically described by one or two primary lighting patterns, and be distinguished from others by a secondary lighting pattern. Though some urban areas looks similar at a glance during nighttime, their components of lighting patterns can be significantly different. 
 
-![kmeans](images/3D_visualizations_clustering.png) 
+![kmeans](images/cls_workflow_result) 
 
 
 ## Inferring Street-level Luminosity at City Scale
