@@ -1,3 +1,5 @@
+![graphical_abstract](images/graphical_abstract_new.jpeg)
+
 # Nighttime Street View Imagery
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -10,7 +12,6 @@ The journal paper can be found [here](https://www-sciencedirect-com.libproxy1.nu
 The nighttime SVI dataset has been uploaded to [Mapillary](https://www.mapillary.com/), with the unique ID stored here.
 <!-- For users who have no access to Hugging Face, the dataset is also available on [Baidu Cloud Disk](https://pan.baidu.com/s/1wsbqfbA56sXjIdb0KoSBbQ?pwd=98tr) (code: 98tr). This repository contains also a detailed [Wiki](https://github.com/ualsg/global-streetscapes/wiki/) with tutorials. --> 
 
-![graphical_abstract](images/graphical_abstract_new.jpeg)
 
 ## Image Collection
 
