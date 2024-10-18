@@ -3,7 +3,7 @@
 # Nighttime Street View Imagery
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Repository for releasing the imagery and code used in **Nighttime Street View Imagery: A New Perspective for Sensing Urban Lighting Landscape**, developed by the [Urban Analytics Lab (UAL)](https://ual.sg/) at the National University of Singapore (NUS).
+Repository for releasing the imagery and code used in **Nighttime Street View Imagery: A New Perspective for Sensing Urban Lighting Landscape**, developed by Zicheng Fan from [Urban Analytics Lab (UAL)](https://ual.sg/), National University of Singapore (NUS).
 
 The journal paper can be found [here](https://doi.org/10.1016/j.scs.2024.105862).
 
@@ -47,7 +47,7 @@ One possible explanation is that complex vertical lighting structures are percei
 
 ## Paper / Citation
 
-If the project benefit your work, please cite the [paper](https://doi.org/10.1016/j.scs.2024.105862): 
+If the project benefits your work, please cite the [paper](https://doi.org/10.1016/j.scs.2024.105862): 
 
 Fan, Z. and Biljecki, F. (2024) ‘Nighttime Street View Imagery: A new perspective for sensing urban lighting landscape’, Sustainable Cities and Society, 116, p. 105862. doi: [https://doi.org/10.1016/j.scs.2024.105862](https://doi.org/10.1016/j.scs.2024.105862).
 
