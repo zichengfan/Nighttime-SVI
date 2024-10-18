@@ -7,7 +7,7 @@ Repository for releasing the imagery and code used in **Nighttime Street View Im
 
 The journal paper can be found [here](https://www-sciencedirect-com.libproxy1.nus.edu.sg/journal/sustainable-cities-and-society).
 
-The nighttime SVI dataset has been uploaded to [Mapillary](https://www.mapillary.com/), with the unique ID stored here.
+The original videos recorded for extracting nighttime SVI has been uploaded to [Mapillary](https://www.mapillary.com/). A cleaned nighttime SVI dataset, paired with daytime images and light meter measurements will be updated soon.
 
 
 
