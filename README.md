@@ -5,7 +5,7 @@
 
 Repository for releasing the imagery and code used in **Nighttime Street View Imagery: A New Perspective for Sensing Urban Lighting Landscape**, developed by the [Urban Analytics Lab (UAL)](https://ual.sg/) at the National University of Singapore (NUS).
 
-The journal paper can be found [here](https://www-sciencedirect-com.libproxy1.nus.edu.sg/journal/sustainable-cities-and-society).
+The journal paper can be found [here](https://doi.org/10.1016/j.scs.2024.105862).
 
 The original videos recorded for extracting nighttime SVI has been uploaded to [Mapillary](https://www.mapillary.com/). A cleaned nighttime SVI dataset, paired with daytime images and light meter measurements will be updated soon.
 
@@ -13,7 +13,7 @@ The original videos recorded for extracting nighttime SVI has been uploaded to [
 
  ## Data Collection
 
-In **Nighttime SVI** project, we build an open dataset made up of 2500 nighttime panoramic streetview images in Singapore. The map below illustrates the spatial distribution of the nighttime images.
+In **Nighttime SVI** project, we build an open dataset made up of 2831 nighttime panoramic streetview images in Singapore. The map below illustrates the spatial distribution of the nighttime images.
 
 ![images_distribution](images/SVI_Collection_points.png)
 
