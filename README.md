@@ -45,7 +45,7 @@ One possible explanation is that complex vertical lighting structures are percei
 
 
 
-## Paper / Attribution / Citation
+## Paper / Citation
 
 If the project benefit your work, please cite the [paper](https://doi.org/10.1016/j.scs.2024.105862): 
 
