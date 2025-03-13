@@ -7,7 +7,7 @@ Repository for releasing the imagery and code used in **Nighttime Street View Im
 
 The journal paper can be found [here](https://doi.org/10.1016/j.scs.2024.105862).
 
-The original videos recorded for extracting nighttime SVI has been uploaded to [Mapillary](https://www.mapillary.com/). Mapillary extracts SVI automatically and follows a different interval and naming pattern. 
+The original videos recorded for extracting nighttime SVI has been uploaded to [Mapillary](https://www.mapillary.com/zicheng). Mapillary extracts SVI automatically and follows a different interval and naming pattern. 
 
 A cleaned nighttime SVI dataset, with images projected in fisheye format is available from Google Drive [link](https://drive.google.com/drive/folders/1-D15GyC-i9xa3Qv7co_dIoOped2mWwt5?usp=sharing). 
 
