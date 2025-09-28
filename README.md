@@ -12,7 +12,7 @@ The original videos recorded for extracting nighttime SVI has been uploaded to [
 
 A cleaned nighttime SVI dataset, with images projected in fisheye format is available from Google Drive [link](https://drive.google.com/drive/folders/1-D15GyC-i9xa3Qv7co_dIoOped2mWwt5?usp=sharing). 
 
-Locations, timestamps, lightmeter measurements and ID for paired day-nightime images are available at [link](data/day_night_SVI_pairs.csv).
+Locations, timestamps, lightmeter measurements and ID for paired day-nightime images are available at [link](day_night_SVI_pairs.csv).
 
 
 
